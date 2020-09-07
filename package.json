@@ -1,0 +1,27 @@
+{
+  "name": "hashNodeJs",
+  "version": "1.0.0",
+  "description": "exercise for Atix Labs",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=8085 FILE_PATH=hashFile node --inspect=9701 server/server.js",
+    "test": "node node_modules/mocha/bin/mocha --timeout 10000 ./spec/support/app.spec.js"
+  },
+  "author": "tito olivieri",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "crypto": "^1.0.1",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mocha": "^8.1.3",
+    "morgan": "^1.10.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jasmine": "^3.6.1"
+  }
+}
